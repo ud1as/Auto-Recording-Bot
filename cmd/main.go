@@ -28,7 +28,7 @@ func createPionRTPPacket(p *discordgo.Packet) *rtp.Packet {
 	}
 }
 
-var Token string = "MTIzNzg0Mzk1MDA1NzAyOTczMw.GsYT-B.2YtUFJlSU7ygJEoc5JX59JQq4wLwzAWmnS85IE"
+var Token string = "TOKEN_HERE"
 var channelUsers = make(map[string]int)
 var mu sync.Mutex
 
